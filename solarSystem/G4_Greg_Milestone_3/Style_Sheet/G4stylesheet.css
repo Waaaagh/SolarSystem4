@@ -3,14 +3,14 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 #navbar {
-    background-color: #808080;
+    background-color:#808080;
     text-align:center;
-    position:  fixed;
-    top:  0;
-    left: 0;
-    width: 100%;
-    height: 8%;
-    z-index: 1;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:8%;
+    z-index:1;
 }
 #master_box { 
     padding-top:4.5%;
@@ -19,11 +19,11 @@ body {
 
 #welcomeMessage {
     border:5px dashed grey;
-    background-color: #bab9b9
+    background-color:#bab9b9;
 }
 
 p {
-    font-size:  120%;
+    font-size:120%;
     padding-top:1%;
     padding-bottom:1%;
     padding-left:1%;
@@ -33,25 +33,25 @@ p {
     border: 3px solid lightgrey;
     border-left:10px solid grey;
     border-right:10px solid grey;
-    box-shadow: 1px 5px 15px #888888;
+    box-shadow:1px 5px 15px #888888;
     margin-top:.5%;
     margin-bottom:.5%;
     margin-left:20%;
-    margin-right: 20%;
+    margin-right:20%;
     position:relative;
     width:60%;
     height:30%;
 }
 
 #boxChild2 {
-    border: 3px solid lightgrey;
+    border:3px solid lightgrey;
     border-left:10px solid grey;
     border-right:10px solid grey;
-    box-shadow: 1px 5px 15px #888888;
+    box-shadow:1px 5px 15px #888888;
     margin-top:.5%;
     margin-bottom:.5%;
     margin-left:20%;
-    margin-right: 20%;
+    margin-right:20%;
     position:relative;
     width:60%;
     height:30%;
@@ -61,7 +61,7 @@ p {
     border: 3px solid lightgrey;
     border-left:10px solid grey;
     border-right:10px solid grey;
-    box-shadow: 1px 5px 15px #888888;
+    box-shadow:1px 5px 15px #888888;
     margin-top:.5%;
     margin-bottom:.5%;
     margin-left:20%;
@@ -69,6 +69,29 @@ p {
     position:relative;
     width:60%;
     height:30%;
+}
+
+#boxChild4 {
+    border: 3px solid lightgrey;
+    border-left:10px solid grey;
+    border-right:10px solid grey;
+    box-shadow:1px 5px 15px #888888;
+    margin-top:.5%;
+    margin-bottom:.5%;
+    margin-left:20%;
+    margin-right: 20%;
+    position:relative;
+    width:60%;
+    height:30%;
+}
+
+footer {
+    background-color:#808080;
+    color:#bab9b9;
+    font-size:90%;
+    text-align:center;
+    height:15%;
+    width:100%;
 }
 
 
