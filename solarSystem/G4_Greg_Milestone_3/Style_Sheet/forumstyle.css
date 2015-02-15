@@ -33,11 +33,24 @@ body {
     width:100%;
 }
 
+#sideBar {
+    border:3px dashed LightGrey;
+    background-color:rgba(147, 139, 139, 0.50);
+    color:LightGrey;
+    font-size:83%;
+    text-align:center;
+    margin-top:1%;
+    position:absolute;
+    left:2%;
+    width:18%;
+    z-index:1;
+}
 
-#boxMaster {
-    position:relative;
-    margin-top:3%;
-    margin-left:22.5%;
+p {
+    font-size:90%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
 }
 
 #welcomeMessage {
@@ -51,11 +64,10 @@ body {
     width:100%;
 }
 
-p {
-    font-size:90%;
-    padding-top:1%;
-    padding-bottom:1%;
-    padding-left:1%;
+#boxMaster {
+    position:relative;
+    margin-top:3%;
+    margin-left:22.5%;
 }
 
 #boxChild1 {
@@ -128,19 +140,6 @@ p {
     margin-bottom:.5%;
     width:70%;
     height:30%;
-}
-
-#sideBar {
-    border:3px dashed LightGrey;
-    background-color:rgba(147, 139, 139, 0.50);
-    color:LightGrey;
-    font-size:83%;
-    text-align:center;
-    margin-top:1%;
-    position:absolute;
-    left:2%;
-    width:18%;
-    z-index:1;
 }
 
 #footer {
