@@ -37,7 +37,7 @@ body {
 }
 
 #welcomeMessage {
-    background-color:rgba(147, 139, 139, 0.80);
+    background-color:rgba(147, 139, 139, 0.75);
     color:LightGrey;
     text-align:center;
     font-style:oblique;
@@ -129,7 +129,6 @@ p {
 }
 
 footer {
-    background-color:#808080;
     color:#bab9b9;
     font-size:80%;
     text-align:center;
