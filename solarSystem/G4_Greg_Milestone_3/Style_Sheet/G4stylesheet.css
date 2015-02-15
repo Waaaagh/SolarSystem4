@@ -23,7 +23,7 @@ body {
     z-index:1;
 }
 
-#boxMaster {  
+#pageSum {  
     position:fixed;
     top:25%;
     height:100%;
@@ -31,7 +31,7 @@ body {
 }
 
 
-#forumSection {
+#boxMaster {
     position:relative;
     left:20%;
 }
