@@ -46,6 +46,19 @@ body {
     z-index:1;
 }
 
+#newComment {
+    border-top:4px solid #888888;
+    border-bottom:4px solid #6A6A6A;
+    border-left:4px solid #6A6A6A;
+    border-right:4px solid #888888;
+    border-radius:5px;
+    background-color:#7F7F7F;
+    color:#E5E5E5;
+    padding-top:.3%;
+    padding-bottom:.3%;
+    width:8%; 
+}
+
 p {
     font-size:90%;
     padding-top:1%;
