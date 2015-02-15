@@ -11,11 +11,9 @@ p {
     top:  0;
     left: 0;
     width: 100%;
-    height: 10%;
     z-index: 1;
     border: 4px solid black;
 }
-
 #planet_name {
     padding-left: 15%;
 }
@@ -46,13 +44,13 @@ p {
     border:  4px solid black;
 }
 #master_box_middle{
-    
+    padding: 6px 4% 6px 4%;
 }
 #secondary_info1 {
-    
+    border:  2px solid black;
 }
 #secondary_picture1 {
-    
+    border:  2px solid black;
 }
 #topic_sub_seperator1{
     padding: 5px 5% 5px 5%;
@@ -60,22 +58,24 @@ p {
     border:  2px dashed black;  
 }
 #secondary_info2 {
-    
+    border:  2px solid black;
 }
 #secondary_picture2 {
-    
+    border:  2px solid black;
 }
 #topic_seperator2 {
     padding: 8px 5% 8px 5%;
     background-color:  #fff;
     border:  4px solid black;
-    
+}
+#master_box_bottom{
+    padding: 6px 4% 6px 4%;
 }
 #moon_info1 {
-    
+    border:  2px solid black;
 }
 #moon_picture1 {
-    
+    border:  2px solid black;
 }
 #topic_sub_seperator2 {
     padding: 5px 5% 5px 5%;
@@ -84,25 +84,28 @@ p {
     
 }
 #moon_info2 {
-    
+    border:  2px solid black;
 }
 #moon_picture2 {
-    
+    border:  2px solid black;
 }
 #topic_seperator3 {
     padding: 8px 5% 8px 5%;
     background-color:  #fff;
     border:  4px solid black;
-    
 }
 #master_box_rover{
-    
+    padding: 6px 4% 6px 4%;
+    height: 40%;
 }
 #rover_info1 {
-    
+    border:  2px solid black;
+    width: 45%;
+    padding-bottom: 30px;
 }
 #rover_picture1 {
-    
+    border:  2px solid black;
+    width: 40%;
 }
 #topic_seperator4 {
     padding: 8px 5% 8px 5%;
@@ -111,7 +114,10 @@ p {
     
 }
 #scroll_bar {
-    
+    padding: 10px 4% 5px 4%;
+    border: 4px solid black;
+    background-color:  #14449c;
+    height: 300px;
 }
 #sitemap {
     height: 100px;
@@ -121,5 +127,4 @@ p {
     border: 4px solid black;
 }
 #sitemap p {
-    
 }
