@@ -1,18 +1,18 @@
 #navbar {text-align:  center;
-         
+         background-color: lightgray;
         }
 
 #Login {position:  absolute;
         top:  10px;
         right: 40px;
-        padding: 10px;
         color: grey;
-        background-color: white;
-        border: black 0px;
         }
 
 #Login a {text-decoration: none;
           }
+
+#Register a {text-decoration:  none;
+             }
 
 #Sun {position: absolute;
       top: 220px;
