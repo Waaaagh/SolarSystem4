@@ -1,0 +1,89 @@
+#navbar {text-align:  center;
+         
+        }
+
+#Login {position:  absolute;
+        top:  10px;
+        right: 40px;
+        padding: 10px;
+        color: grey;
+        background-color: white;
+        border: black 0px;
+        }
+
+#Login a {text-decoration: none;
+          }
+
+#Sun {position: absolute;
+      top: 220px;
+      left: 20px;
+        }
+
+#Mercury {position: absolute;
+          top: 240px;
+          left: 140px;
+        }
+
+#Venus {position: absolute;
+        top: 240px;
+        left: 260px;
+        }
+
+#Earth {position: absolute;
+        top: 240px;
+        left: 380px;
+        }
+
+#Mars {position: absolute;
+       top:  240px;
+       left: 500px;
+        }
+
+#Jupiter {position:  absolute;
+          top:  240px;
+          left:  620px;
+          }
+
+#Saturn {position: absolute;
+         top: 240px;
+         left: 740px;
+        }
+
+#Uranus {position:  absolute;
+        top:  240px;
+        left: 860px;
+        }
+#Neptune {position: absolute;
+          top: 240px;
+          left: 980px;
+         }
+
+#Pluto {position: absolute;
+        top: 240px;
+        left: 1100px;
+        }
+
+#Science {position:  absolute;
+          bottom: 150px;
+          left: 400px;
+          padding: 10px;
+          background-color: white;
+          color: black;
+          border: 1px solid;
+        }
+
+#Science a {text-decoration: none;
+            }
+
+#Forums {position: absolute;
+         bottom: 150px;
+         right: 400px;
+         padding: 10px;
+         background-color: white;
+         color:  black;
+         border:  1px solid;
+        }
+
+#Forums a {text-decoration:  none;
+           }
+
