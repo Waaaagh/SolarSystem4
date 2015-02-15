@@ -123,6 +123,7 @@ p {
     font-size:83%;
     text-align:center;
     position:absolute;
+    left:.5%;
     width:18%;
     z-index:1;
 }
