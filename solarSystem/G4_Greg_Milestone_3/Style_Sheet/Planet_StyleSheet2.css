@@ -1,0 +1,125 @@
+body {
+    background-color: #b6ff00;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size:  120%;
+}
+#navbar {
+    background-color: #808080;
+    position:  fixed;
+    top:  0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    border: 4px solid black;
+}
+
+#planet_name {
+    padding-left: 15%;
+}
+#master_box_top {
+    padding-top: 8%;
+}
+#main_info1{
+    border: 2px solid black;
+    float:  left;
+    margin-right: 400px
+}
+#main_info1 p{
+    padding: 0px 3% 0px 3%;
+}
+#main_info2{
+    border: 2px solid black;
+    padding-top: 8px;
+}
+#main_planet_image{
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:  10px;
+}
+#topic_seperator1 {
+    padding: 8px 5% 8px 5%;
+    background-color:  #fff;
+    border:  4px solid black;
+}
+#master_box_middle{
+    
+}
+#secondary_info1 {
+    
+}
+#secondary_picture1 {
+    
+}
+#topic_sub_seperator1{
+    padding: 5px 5% 5px 5%;
+    background-color:  #fff;
+    border:  2px dashed black;  
+}
+#secondary_info2 {
+    
+}
+#secondary_picture2 {
+    
+}
+#topic_seperator2 {
+    padding: 8px 5% 8px 5%;
+    background-color:  #fff;
+    border:  4px solid black;
+    
+}
+#moon_info1 {
+    
+}
+#moon_picture1 {
+    
+}
+#topic_sub_seperator2 {
+    padding: 5px 5% 5px 5%;
+    background-color:  #fff;
+    border:  2px dashed black;
+    
+}
+#moon_info2 {
+    
+}
+#moon_picture2 {
+    
+}
+#topic_seperator3 {
+    padding: 8px 5% 8px 5%;
+    background-color:  #fff;
+    border:  4px solid black;
+    
+}
+#master_box_rover{
+    
+}
+#rover_info1 {
+    
+}
+#rover_picture1 {
+    
+}
+#topic_seperator4 {
+    padding: 8px 5% 8px 5%;
+    background-color:  #fff;
+    border:  4px solid black;
+    
+}
+#scroll_bar {
+    
+}
+#sitemap {
+    height: 100px;
+    width: 100%;
+    margin-top:  15px;
+    background-color: #ff6a00;
+    border: 4px solid black;
+}
+#sitemap p {
+    
+}
