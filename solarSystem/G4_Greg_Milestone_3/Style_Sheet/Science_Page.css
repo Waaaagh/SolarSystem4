@@ -1,190 +1,150 @@
 body {
-    background-color: #b6ff00;
+    padding-top: 70px;
+    width: 1300px;
+    background-color: #00ff21;
     font-family: 'Trebuchet MS', sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-image: url(../../resources/images/planets_background.jpg);
-    background-repeat: repeat;
-    background-position: 0px 0px;
-    background-color:  black;
+}
+#navbar {
+    display: block;
+    background-color: #808080;
+    position:  fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    white-space: pre;
+    
+		width:500px;
+		height:40px;
+        top: 0;
+    list-style: none;
+    padding-left: 50px;
+    
+		position:absolute;
+        margin-left: 300px;
+        
+}
+a{  
+    font-size: 180%;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#master_box {
+    padding-top: 5%;
 }
 p {
     font-size:  120%;
 }
-#navbar {
-    background-color: #808080;
-    position:  fixed;
-    top:  0;
-    left: 0;
-    width: 100%;
-    height: 12%;
-    z-index: 1;
-    border: 4px solid black;
-}
-#planet_symbol{
-    float: left;
-    padding-right: 10px;
-}
-#planet_name {
-    padding-left: 10%;
-    width: 70%;
-}
-#master_box_top {
-    padding-top: 88px;
-}
-#main_info1{
+#BOX_1{
     width:  55%;
-    height: 400px;
-    float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
+    height: 500px;
+    float: right;
+    border: 1px ;
+    border-style: solid;
 }
-#main_info2{
-    width:  95%;
+#imgA{
+    width: 500px;
+    height: 500px;
+    float:left;
+    border: 2px;
+    border-style: dotted;  
+}
+#BOX_2{
+    
+    width:  100%;
     height: 300px;
     float: left;
-    border: 1px solid black;
+    border: 5px;
+    border-style:  solid;
+}
+#section_break{
+    margin-top: 860px;
     background-color: #FFFFFF;
-}
-#main_planet_image{
-    width: 40%;
-    height: 400px;
-    float: right;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator1 {
-    margin-top: 725px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#master_box_middle{
-    padding-top: 20px;
+    border: 3px; 
+    border-style:dashed;
     width: 100%;
-    height: 350px;
-}
-#secondary_info1 {
-    width: 55%;
-    height: 350px;
-    float:  right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#secondary_picture1 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_sub_seperator1{
-    margin-top: 5px;
-    margin-bottom:  6px;
-    background-color: #ff00dc;
-    border: 2px dashed black;
-    padding: 2px 2% 2px 2%;
-    height:  5px;
-}
-#secondary_info2 {
-    width: 55%;
-    height: 350px;
-    float:  right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#secondary_picture2 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator2 {
-    margin-top: 355px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
     height: 10px;
 }
-#moon_info1 {
-    width: 55%;
-    height: 350px;
+#section_2_img{
+    margin-top: 50px;
+     width: 500px;
+    height: 500px;
+    float:right;
+    border: 2px;
+    border-style: dotted; 
+}
+#section_2_box{
+    margin-top: 50px;
+        width:  55%;
+    height: 500px;
     float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
+    border: 1px ;
+    border-style: solid;
 }
-#moon_picture1 {
-    width: 40%;
-    height: 350px;
-    float: right;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_sub_seperator2 {
-    margin-top: 355px;
-    margin-bottom:  6px;
-    background-color: #ff00dc;
-    border: 2px dashed black;
-    padding: 2px 2% 2px 2%;
-    height:  5px;
-}
-#moon_info2 {
-    width: 55%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#moon_picture2 {
-    width: 40%;
-    height: 350px;
-    float: right;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator3 {
-    margin-top: 350px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#rover_info1 {
-    width: 55%;
-    height: 350px;
-    float: right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#rover_picture1 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator4 {
-    margin-top: 350px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#scroll_bar {
+
+#section_2_box_2{
+        
     width:  100%;
-    height:  400px;
-    border:  2px solid black;
-    background-color: #0094ff;
+    height: 300px;
+    float: left;
+    border: 5px;
+    border-style:  solid;
 }
-#sitemap {
-    height: 100px;
+#section_break_2{
+    margin-top: 910px;
+    background-color: #FFFFFF;
+    border: 3px; 
+    border-style:dashed;
     width: 100%;
-    margin-top:  15px;
-    background-color: #ff6a00;
-    border: 4px solid black;
+    height: 10px;
 }
-#sitemap p {
-    padding: 15px 20%;
+#section_3_img{
+    margin-top: 50px;
+     width: 500px;
+    height: 500px;
+    float:left;
+    border: 2px;
+    border-style: dotted; 
 }
+#section_3_box{
+    margin-top: 50px;
+        width:  55%;
+    height: 500px;
+    float: right;
+    border: 1px ;
+    border-style: solid;
+}
+
+#section_3_box_2{
+        
+    width:  100%;
+    height: 300px;
+    float: right;
+    border: 5px;
+    border-style:  solid;
+}
+#section_break_3{
+    margin-top: 910px;
+    background-color: #FFFFFF;
+    border: 3px; 
+    border-style:solid;
+    width: 100%;
+    height: 10px;
+}
+
+#scroll_box{
+    margin-top: 50px;
+    background-color:#FFF455;
+        width:1000px;
+        height: 300px;
+    margin-left: 200px;
+
+}
+	a:link {color:#0000FF;}
+	a:hover {color:#000000;}
+	a:visited {color:#6A86A5;}
