@@ -33,6 +33,7 @@
     
 ul#boxes li {
     border:2px solid grey;
+    background-color:#0ff;
     display: inline;
     padding-top:100px;
     padding-bottom:100px;
