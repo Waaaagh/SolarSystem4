@@ -4,7 +4,7 @@
     background-color:grey;
     border-bottom:3px solid black;
     text-align:center;
-    position:relative;
+    position:fixed;
     top:0%;
     left:0%;
     width:100%;
@@ -21,15 +21,14 @@
 #welcomeMessage {
     border:3px solid grey;
     text-align:center;
+    margin-top:8%;
     padding-top:1%;
     padding-bottom:1%;
-    position:relative;
 }
 
 #boxMaster {
-    margin-top:15%;
-    margin-left:22%;
-    position:relative;
+    margin-top:10%;
+    margin-left:14%;
     }
     
 ul#boxes li {
