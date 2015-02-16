@@ -4,28 +4,19 @@
     <head>
         <meta charset="utf-8" />
         <title>Forums</title>
-        <link rel="stylesheet" type="text/css" href="G4_Greg_Milestone_3/Style_Sheet/forumstyle.css">
+        <link rel="stylesheet" type="text/css" href="G4_Greg_Milestone_3/Style_Sheet/ForumsStyle.css">
+        <script src="./js/Forums.js"></script>
     </head>
     <body>
         <img id ="placeHolder" src="./resources/images/fourms_bg_placeholder_lol.jpg" alt="SPEEHS"></img>
         <div id="navbar">
-        <p>NAAAAAAAAAAAAAAAAAAAAAAV</p>
+        <p>Navbar goes here, and STAYS.</p>
         </div>
         <div id="pageSum">
             <p id="welcomeMessage"> Welcome to the forums! We both know it but, there is only going to be two or three posts through my entire existence.</p>
-            <div id="sideBar">
-                <p>Sidebar</p>
-                <p>height</p>
-                <p>adjusts</p>
-                <p>to</p>
-                <p>sidebar</p>
-                <p>content.</p>
-                <p>Just</p>
-                <p>like</p>
-                <p>this!</p>
-            </div>
             <div id="boxMaster"> 
-                <button id="newComment" onclick="window.open('./CommentForm.html')">New Comment</button>   
+                <button id="newComment" onclick="showForm()">New Comment</button>
+                <iframe id ="commentWindow" src="./CommentForm.html" ></iframe>
                 <div id="boxChild1">
                     <p>box child 1 reporting for duty.</p>
                 </div>
@@ -33,7 +24,7 @@
                     <p>box child 2 says: lol</p>
                 </div>
                 <div id="boxChild3">
-                    <p>whenever a comment is posted, a new instance of the box child will appear, capiche?</p>
+                    <p>when comment is posted, a new instance of the box child will appear, capiche?</p>
                 </div>
                 <div id="boxChild4">
                     <p>like this one... :)</p>

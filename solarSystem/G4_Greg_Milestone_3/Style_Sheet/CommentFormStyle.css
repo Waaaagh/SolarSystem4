@@ -1,0 +1,18 @@
+p {
+    color:White;
+}
+
+#submitComment{
+    border-top:5px solid #888888;
+    border-bottom:5px solid #6A6A6A;
+    border-left:5px solid #6A6A6A;
+    border-right:5px solid #888888;
+    border-radius:5px;
+    box-shadow:1px 1px 10px #888888;
+    background-color:#7F7F7F;
+    color:#E5E5E5;
+    margin-bottom:1%;
+    padding-top:.3%;
+    padding-bottom:.3%;
+    width:30%;
+}
