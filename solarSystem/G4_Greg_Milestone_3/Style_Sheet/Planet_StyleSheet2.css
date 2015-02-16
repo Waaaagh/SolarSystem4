@@ -1,5 +1,8 @@
 body {
-    background-color: #b6ff00;
+    background-image: url(../../resources/images/planets_background.jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-color:  black;
     font-family: 'Trebuchet MS', sans-serif;
 }
 p {

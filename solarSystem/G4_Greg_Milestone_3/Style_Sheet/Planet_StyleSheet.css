@@ -3,6 +3,10 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
+    background-image: url(../../resources/images/planets_background.jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-color:  black;
 }
 p {
     font-size:  120%;
@@ -76,7 +80,7 @@ p {
     background-color: #00ff21;
 }
 #topic_sub_seperator1{
-    margin-top: 10px;
+    margin-top: 350px;
     margin-bottom:  6px;
     background-color: #ff00dc;
     border: 2px dashed black;
