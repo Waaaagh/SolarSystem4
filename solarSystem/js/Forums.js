@@ -4,6 +4,6 @@ function showForm() {
     }
 
 function hideForm() {
-    parent.window.close();
+    top.window.close();
     window.open("./Forums.html");
     }
