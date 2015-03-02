@@ -10,15 +10,13 @@
     <body>
         <div id="login_section">
                 <form id="login_form" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" target="_blank">
-                    <h4> Username: </h4>
-				<br>
+                    <h4> Username: <span class="asterisk" style="color:red"> *</span></h4>
 				<input type="text" size="100">
-                    <br>
 			<br>
-				<h4> Halt! Has Thou Passed Thy COMP 1536 Programmable Course? <span class="asterisk" style="color:red"> *</span></h4>
-				<label><input type="radio" name="passed" value="yes" required>Yay.</label>
+				<h4> What Is Your Gender? <span class="asterisk" style="color:red"> *</span></h4>
+				<label><input type="radio" name="gender" value="male" required>Male.</label>
 				<br>
-				<label><input type="radio" name="passed" value="no" required>Ney.</label>
+				<label><input type="radio" name="gender" value="female" required>Female.</label>
 			<br>
 			<br>
 				<label for="portfolio">Enter Your Portfolio URL:</label>
@@ -30,25 +28,23 @@
 				<input id="resumebutton" type="file" name="resume_upload">
 			<br>
 			<br>
-				<h4>What does Thou Bretheren Call You By? <span class="asterisk" style="color:red"> *</span></h4>
+				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
-				<br>
 				<div id="first_name_input"><input id="firstnameinput" type="text" size="15" required><label id="firstname" for="firstnameinput"> First Name</label></div>
-				
+				    <br>
 				<div id="last_name_input"><input id="lastnameinput" type="text" size="25" required><label id="lastname" for="lastnameinput">Last Name</label></div>
 				
 			<br>
-			<br>
-				<h4> <label for="emailinput"> What Art Thou Internet Mail Address? </label><span class="asterisk" style="color:red"> *</span></h4>
+				<h4> <label for="emailinput"> What Is Your Email Address? </label><span class="asterisk" style="color:red"> *</span></h4>
 				<input id="emailinput" type="text" name="email" size="70" required>
 			<br>
 			<br>
-				<h4>Hast Thou A Cellular Device? <span class="asterisk" style="color:red"> *</span></h4>
-				<div id="area_code_input"><input id="areacodeinput" type="text" size="3" maxlength="3" required> -<label id="areacode" for="areacodeinput">(xxx)</label></div>
+				<h4> Do You Have A Phone Number</h4>
+				<div id="area_code_input"><input id="areacodeinput" type="text" size="3" maxlength="3" > -<label id="areacode" for="areacodeinput">(xxx)</label></div>
 				
-				<div id="first_three_input"><input id="firstthreeinput" type="text" size="3" maxlength="3" required> -<label id="firstthree" for="firstthreeinput">xxx</label></div>
+				<div id="first_three_input"><input id="firstthreeinput" type="text" size="3" maxlength="3" > -<label id="firstthree" for="firstthreeinput">xxx</label></div>
 				
-				<div id="last_four_input"><input id="lastfourinput" type="text" size="5" maxlength="4" required><label id="lastfour" for="lastfourinput">xxxx</label></div>
+				<div id="last_four_input"><input id="lastfourinput" type="text" size="5" maxlength="4" ><label id="lastfour" for="lastfourinput">xxxx</label></div>
 				<br>
 				
                 
