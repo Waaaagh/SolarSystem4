@@ -1,0 +1,20 @@
+body {
+    background-color: #c3b4b4;
+}
+#login_section{
+    padding: 4em, 2em, 2em, 2em;
+}
+#area_code_input{
+    display: inline;
+}
+#first_three_input{
+    display: inline;
+}
+last_four_input{
+    display: inline;
+}
+#login_section{
+    border: 5px solid black;
+}
+
+
