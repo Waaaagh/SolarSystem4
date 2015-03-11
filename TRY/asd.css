@@ -54,37 +54,40 @@ p {
     text-align: center;
 }
 #main_content_box {
-    background-color: rgba(20,20,20, 0.9);
-    box-shadow: 1px 1px 10px #888888;
+    background-color: rgba(20,20,20, 0.8);
+    box-shadow: 1px 1px 12px #888888;
     color: white;
     float: right;
-    margin-top: 15%;
     overflow: auto;
-    height: 100%;
-    width: 54%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 72%;
+    width: 50%;
 }
 #main_box_content {
-    font-size: 270%;
-    padding-top: 10%;
-    padding-left: 5%;
+    font-size: 120%;
+    padding-top: 5%;
+    padding-left: 7%;
 }
 #sec_nav {
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: rgb(80,80,80);
-    border-bottom: 10px solid Grey;
+    background-color: Gray;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
-#sec_nav input {
-    background-color: Grey;
+.nav_2_button {
+    background-color: Gray;
     border: none;
+    color: White;
+    padding-top: 0.8%;
+    padding-bottom: 0.2%;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
 }
 
-#sec_nav input:hover {
-    background-color: Yellow;
+.nav_2_button:hover {
+    background-color: DarkGray;
 }
 
