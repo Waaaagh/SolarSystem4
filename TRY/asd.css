@@ -35,7 +35,7 @@ p {
     position: fixed;
     right: 0px;
     height: 100%;
-    width: 85%;
+    width: 90%;
 }                                                                                                                               
 #image_set {
    float: left;
@@ -55,6 +55,7 @@ p {
 }
 #main_content_box {
     background-color: rgba(20,20,20, 0.9);
+    box-shadow: 1px 1px 10px #888888;
     color: white;
     float: right;
     margin-top: 15%;
@@ -66,11 +67,11 @@ p {
     font-size: 270%;
     padding-top: 10%;
     padding-left: 5%;
-    width: 100%;
 }
 #sec_nav {
     padding-top: 1%;
     padding-left: 1%;
+    padding-right: 1%;
     background-color: rgb(80,80,80);
     border-bottom: 10px solid Grey;
     position: fixed;
