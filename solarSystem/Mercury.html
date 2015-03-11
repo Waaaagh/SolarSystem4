@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 
+<!--
+-
+- Mercury is the closest planet to the sun and due to its proximity can only be seen during twilight.
+- For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965
+- it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury
+- can be observed from the Earth passing across the face of the Sun in a event called a transit, the next will occur
+- on May 9th, 2016.
+-
+-->
+
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -9,24 +19,32 @@
     </head>
     <body>
         <div id="navbar">
-            <h2 id="planet_name"> <img id="planet_symbol" src="yeah" alt="Planet Symbol"> Mercury: God Of War </h2>
+            <h2 id="planet_name"> <img id="planet_symbol" src="yeah" alt="[Planet Symbol]"> Mercury</h2>
         </div>
             <!-- Creates box for the Planets Name, Planet Logo, and Login Status. Will hold drop-down list later.-->
         <div id="master_box_top">
                 <!-- Creates a box for the Main Content. -->
             <div id="main_info1">
-                <p>This is where the Information related to the main Planet picture is going to be presented. Is quite high, but only goes down so far. 
+                <p> Named after the Roman delivery god, Mercury is the smallest and closest planet to the sun. Due to its proximity, it is hardly seen except during twilight. 
+                    Mercury, observed to move around its orbit in about 116 days, is much faster than any other planet at that, whence it gets its name; for every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun.
+                    Thirteen times a century, Mercury can be observed from Earth; passing accross the surface of the Sun, this process is called "transit".
                 </p>
             </div>
                 <!-- Box holding Main Info 1. Stuck to left side of page.-->
-            <div id="main_planet_image">
-                <img src="yeah" alt="The Blue Marble">
-                <p> This is where an image will go (green backgrounds are images).
-                </p>
-            </div>
+            <img id="main_planet_image" src="resources/images/mercury.png" alt="instant_messaging_incarnate">
                 <!-- Box holding Main Image. Stuck to right side of page. -->
-            <div id="main_info2">
-                <p>This is where the second piece of Information is going to go for the main Planet picture. Goes across the whole screen, but has a limited height. The rest is junkyard scrap metal, only useful is every post-apocalyptic game ever. Fallout 4 at E3 2015! 
+            <div id="main_info2" style="background-color:rgb(147, 139, 139)">
+                <p>
+                    Planet Profile<br>
+                    Mass: 330,104,000,000,000 billion kg (0.055 x Earth)<br>
+                    Equatorial Diameter: 4,879<br>
+                    Polar Diameter: 4,879<br>
+                    Equatorial Circumference: 15,329 km<br>
+                    Orbit Distance: 57,909,227 km (0.39 AU)<br>
+                    Orbit Period: 87.97 Earth days<br>
+                    Surface Temperature: -173 to 427°C<br>
+                    First Record: 14th century BC<br>
+                    Recorded By: Assyrian astronomers <br>
                 </p>
             </div>
                 <!-- Box holding Main Info 2. Sits around below the Main Info 1 and Main Image. -->
@@ -39,13 +57,11 @@
         <div id="master_box_middle">
                 <!-- Main Box holding all the planets secondary information boxes. -->
             <div id="secondary_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
+                <img class="image"  src="resources/images/moon_generic.jpg" alt="moon_buddy" height="100%" width="80%">
             </div>
                 <!-- Box holding planets secondary characteristics. -->
             <div id="secondary_info1">
-                <p> This section will hold information on the planets secondary features, and go into further detail on other planet aspects. 
+                <p> Unfortunately, Mercury has no natural satellite, or in common tongue, moon. 
                 </p>
             </div>
                 <!-- Box holding planets secondary pictures. -->
@@ -56,14 +72,17 @@
         <!-- A Division that adds a thick black line between topics. -->
         <br>
             <div id="secondary_info2">
-                <p> This section will hold information on the planets secondary features, and go into further detail on other planet aspects. 
+                <p> 
+                    Only two spacecrafts are know to have visited Mercury; 
+                    Mariner 10 flew by Mercury three times in 1974 and 1975 
+                    and mapped just under half of the planet’s surface. On August 3rd 2004, 
+                    the Messenger probe was launched from Cape Canaveral Air Force Station,
+                    the first spacecraft to visit since the mid 1970’s, is still in orbit. 
                 </p>
             </div>
                 <!-- Box holding planets secondary pictures. --> 
             <div id="secondary_picture2">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it.
-               </p>
+               <img class="image" src="resources/images/spaceship_buddy.jpg" alt="spaceship_buddy" height="100%" width="100%">
             </div>
                 <!-- Box holding planets secondary characteristics. -->
 		<br>
@@ -72,14 +91,16 @@
         <!-- A Division that adds a thick black line between topics. -->
         <br>
             <div id="moon_info1">
-                <p> This section will hold information on the planets moons. 
+                <p> 
+                    Mercury is the second densest planet:<br>
+                    Even though the planet is small, Mercury is very dense. 
+                    Each cubic centimetre has a density of 5.4 grams, with only the Earth having a higher density. 
+                    This is largely due to Mercury being composed mainly of heavy metals and rock. 
                 </p>
             </div>
                 <!-- Box holding planets secondary pictures. --> 
             <div id="moon_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
+               <img class="image" src="resources/images/mercury_density.jpg" alt="density_buddy" height="100%" width="80%">
             </div>
                 <!-- Box holding planets secondary characteristics. -->
 		<br>
@@ -88,30 +109,18 @@
         <!-- A Division that adds a thick black line between topics. -->
         <br>
             <div id="moon_info2">
-                <p> This section will hold information on the planets moons. 
+                <p> 
+                    Mercury has a molten core:<br> 
+                    In recent years scientists from NASA have come to believe the solid iron core of Mercury could in fact
+                     be molten. Normally the core of smaller planets cools rapidly, but after extensive research, the results
+                     were not in line with those expected from a solid core. Scientists now believe the core to contain a lighter 
+                    element such as sulphur, which would lower the melting temperature of the core material. It is estimated 
+                    Mercury’s core makes up 42% of its volume, while the Earth’s core makes up 17%.
                 </p>
             </div>
                 <!-- Box holding planets secondary pictures. --> 
             <div id="moon_picture2">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator3">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="rover_info1">
-                <p> This section will hold information on the planets rovers and satellites. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="rover_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it.  
-               </p>
+               <img src="resources/images/mercury_core.gif" alt="core_buddy" height="100%" width="80%">
             </div>
                 <!-- Box holding planets secondary characteristics. -->
 		<br>
