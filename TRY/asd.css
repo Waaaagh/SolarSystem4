@@ -83,3 +83,7 @@ p {
     border: none;
 }
 
+#sec_nav input:hover {
+    background-color: Yellow;
+}
+
