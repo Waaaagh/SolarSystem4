@@ -1,0 +1,72 @@
+#mass_Size { 
+    color: #E0E0E0 ;
+}
+
+#Volume {
+    position:  relative;
+    left: 80px;
+}
+
+#mass {
+    position: relative;
+    left: 100px;
+}
+
+#density {
+    position: relative;
+    left: 40px;
+}
+
+#moon {
+    color: #E0E0E0;
+    position: relative;
+    left: 180px;
+}
+
+#jupiter {
+    font-family: Comic Sans MS;
+    color: #E0E0E0
+}
+
+#radius {
+    position:  relative;
+    left: 100px;
+    font-style:  italic;
+    color: #E0E0E0
+}
+
+#area {
+    position: relative;
+    left: 90px;
+    font-style: italic;
+    color: #E0E0E0
+}
+
+
+#volume {
+    position: relative;
+    left: 140px;
+    font-style:  italic;
+    color: #E0E0E0
+}
+
+#mass1 {
+    position: relative;
+    left: 155px;
+    font-style: italic;
+    color: #E0E0E0
+}
+
+#density1 {
+    position:  relative;
+    left:  87px;
+    font-style:  italic;
+    color: #E0E0E0
+}
+
+#gravity {
+    position: relative;
+    left: 65px;
+    font-style: italic;
+    color: #E0E0E0
+} 

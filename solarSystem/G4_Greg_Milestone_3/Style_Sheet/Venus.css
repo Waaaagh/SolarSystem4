@@ -1,0 +1,61 @@
+body {
+}
+
+#venus_size {
+    color: #E0E0E0;
+    position:  relative;
+    left:  80px;
+}
+
+#radius {
+    position: relative;
+    left: 60px;
+    font-style:  italic;
+}
+
+#area {
+    position: relative;
+    left: 54px;
+    font-style: italic;
+}
+
+#volume {
+    position: relative;
+    left: 94px;
+    font-style:  italic;
+}
+
+#mass {
+    position:  relative;
+    left: 116px;
+}
+
+#density {
+    position:  relative;
+    left: 54px;
+    font-style:  italic;
+}
+
+#gravity {
+    position:  relative;
+    left:  38px;
+    font-style:  italic;
+}
+
+#velocity {
+    position:  relative;
+    left:  38px;
+    font-style:  italic;
+}
+
+#neith {
+    position:  relative;
+    left: 140px;
+    bottom: 40px;
+    font-style:  italic;
+    color:  #E0E0E0;
+}
+
+#venus {
+    font-family: Comic Sans MS;
+}
