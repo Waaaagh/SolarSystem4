@@ -57,10 +57,10 @@ p {
     background-color: rgba(20,20,20, 0.9);
     color: white;
     float: right;
-    margin-top: 5%;
+    margin-top: 15%;
     overflow: auto;
     height: 100%;
-    width: 45%;
+    width: 54%;
 }
 #main_box_content {
     font-size: 270%;
