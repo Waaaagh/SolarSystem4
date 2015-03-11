@@ -4,9 +4,14 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
+    background-image: url(../../resources/images/fourms_bg_placeholder_lol.jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-color:  black;
 }
 p {
-    font-size:  120%;
+    font-size:  100%;
+    padding-left: 5px;
 }
 /*
 #bg_img {
