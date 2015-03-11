@@ -13,126 +13,81 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-            <title>Mercury</title>
+            <title>TRY</title>
         <link rel="stylesheet" type="text/css" href="asd.css">
             <!-- Links to main .css file for the planets pages. -->
     </head>
     <body>
-        <img id ="bg_img" src="./resources/images/fourms_bg_placeholder_lol.jpg" alt="SPEEHS">
+        <!-- This is the background image -->
+        <img id ="bg_img" src="../solarSystem/resources/images/fourms_bg_placeholder_lol.jpg" alt="SPEEHS">
+        <!-- This is the navbar -->
         <div id="navbar">
-            <h2 id="planet_name"> <img id="planet_symbol" src="yeah" alt="Planet Symbol"> Mercury: God of Instant Messaging </h2>
+            <h2 id="planet_name"> <img id="planet_symbol" src="yeah" alt="!!"> THIS IS A TEST TEMPLATE </h2>
         </div>
-            <!-- Creates box for the Planets Name, Planet Logo, and Login Status. Will hold drop-down list later.-->
-        <div id="master_box_top">
-                <!-- Creates a box for the Main Content. -->
-            <div id="main_info1">
-                <p> Named after the Roman messenger god, Mercury is the smallest and closest planet to the sun. Due to its proximity, can only be seen during twilight. 
+        <!-- This keeps the elements from scattering when some asshole zooms in/out-->
+        <div id="main_box">
+            <!-- This is the planet image -->
+            <div id="image_set">
+                <img id="planet_image" src="../solarSystem/resources/images/mercury.png" alt="instant_messaging_incarnate">
+                <p id="planet_label">
+                    MERCURY
                 </p>
             </div>
-                <!-- Box holding Main Info 1. Stuck to left side of page.-->
-            <img id="main_planet_image" src="resources/images/mercury.png" alt="instant_messaging_incarnate">
-                <!-- Box holding Main Image. Stuck to right side of page. -->
-            <div id="main_info2" style="background-color:rgba(147, 139, 139, 0.3)">
-                <p>This is where the second piece of Information is going to go for the main Planet picture. Goes across the whole screen, but has a limited height. The rest is junkyard scrap metal, only useful is every post-apocalyptic game ever. Fallout 4 at E3 2015! 
-                </p>
-            </div>
-                <!-- Box holding Main Info 2. Sits around below the Main Info 1 and Main Image. -->
-        </div>   
-		<br>
-            <div id="topic_seperator1">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-        <div id="master_box_middle">
-                <!-- Main Box holding all the planets secondary information boxes. -->
-            <div id="secondary_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-            <div id="secondary_info1">
-                <p> This section will hold information on the planets secondary features, and go into further detail on other planet aspects. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. -->
-        </div>   
-		<br>
-            <div id="topic_sub_seperator1">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="secondary_info2">
-                <p> This section will hold information on the planets secondary features, and go into further detail on other planet aspects. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="secondary_picture2">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it.
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator2">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="moon_info1">
-                <p> This section will hold information on the planets moons. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="moon_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_sub_seperator2">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="moon_info2">
-                <p> This section will hold information on the planets moons. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="moon_picture2">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator3">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="rover_info1">
-                <p> This section will hold information on the planets rovers and satellites. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="rover_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it.  
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator4">
-            </div>
-        <!-- A Division that adds a thick black line between topics. -->
-        <br>
-        <div id="scroll_bar">
-          <p>This is where the horizontal scrolling bar for interplanetary navigation will go.
-          </p>   
+            <!-- This is the info box that contains info -->  
+            <div id="main_content_box">
+                <!-- This is for secondary navigation -->
+                    <div id="sec_nav">
+                        <input id="t_b_0" type="button" value="Main Info">
+                        <input id="t_b_1" type="button" value="More Info">
+                        <input id="t_b_2" type="button" value="Moons">
+                        <input id="t_b_3" type="button" value="Etc">
+                    </div>
+                    <br>
+                <!-- This is the content box content-->
+                <div id="main_box_content">
+                    <!-- This is where the info stuff is -->
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                    <div>
+                        This is a block text.
+                    </div>
+                    <br>
+                </div>
+            </div> 
         </div>
-    <footer id="sitemap">
-        <p>This is where a breif sitemap will be located so users can access the rest of the website from this page.
-        </p>
-    </footer>
     </body>
 </html>

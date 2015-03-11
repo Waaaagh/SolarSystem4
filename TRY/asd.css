@@ -22,7 +22,6 @@ p {
     left: 0;
     width: 100%;
     z-index: 1;
-    border: 4px solid black;
 }
 #planet_symbol{
     float:left;
@@ -32,165 +31,55 @@ p {
     padding-left:10%;
     width:70%;
 }
-#master_box_top {
-    padding-top: 88px;
+#main_box {
+    position: fixed;
+    right: 0px;
+    height: 100%;
+    width: 85%;
+}                                                                                                                               
+#image_set {
+   float: left;
+   margin-top: 70px;
+   width: 45%;
+   height: 100%;
 }
-#main_info1{
-    width:55%;
-    height:400px;
-    float:left;
-    border:1px solid black;
-    background-color:#FFFFFF;
-}
-#main_info1 p{
-    font-size:90%;
-    padding:5px;    
-}
-#main_info2{
-    width:  95%;
-    height: 300px;
-    float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#main_planet_image{
-    width: 400px;
-    height: 400px;
-    position: relative;
-    left: 50px;
-}
-#topic_seperator1 {
-    margin-top: 725px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#master_box_middle{
-    padding-top: 20px;
+#planet_image{ 
+    position: relative;                                
     width: 100%;
-    height: 350px;
+    height: 75%;
 }
-#secondary_info1 {
-    width: 55%;
-    height: 350px;
-    float:  right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
+#planet_label {
+    color: white;
+    font-size: 180%;
+    text-align: center;
 }
-#secondary_picture1 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_sub_seperator1{
-    margin-top: 5px;
-    margin-bottom:  6px;
-    background-color: #ff00dc;
-    border: 2px dashed black;
-    padding: 2px 2% 2px 2%;
-    height:  5px;
-}
-#secondary_info2 {
-    width: 55%;
-    height: 350px;
-    float:  right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#secondary_picture2 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator2 {
-    margin-top: 355px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#moon_info1 {
-    width: 55%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#moon_picture1 {
-    width: 40%;
-    height: 350px;
+#main_content_box {
+    background-color: rgba(20,20,20, 0.9);
+    color: white;
     float: right;
-    border: 1px solid black;
-    background-color: #00ff21;
+    margin-top: 5%;
+    overflow: auto;
+    height: 100%;
+    width: 45%;
 }
-#topic_sub_seperator2 {
-    margin-top: 355px;
-    margin-bottom:  6px;
-    background-color: #ff00dc;
-    border: 2px dashed black;
-    padding: 2px 2% 2px 2%;
-    height:  5px;
-}
-#moon_info2 {
-    width: 55%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#moon_picture2 {
-    width: 40%;
-    height: 350px;
-    float: right;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator3 {
-    margin-top: 350px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#rover_info1 {
-    width: 55%;
-    height: 350px;
-    float: right;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-}
-#rover_picture1 {
-    width: 40%;
-    height: 350px;
-    float: left;
-    border: 1px solid black;
-    background-color: #00ff21;
-}
-#topic_seperator4 {
-    margin-top: 350px;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    padding: 2px 2% 2px 2%;
-    height: 10px;
-}
-#scroll_bar {
-    width:  100%;
-    height:  400px;
-    border:  2px solid black;
-    background-color: #0094ff;
-}
-#sitemap {
-    height: 100px;
+#main_box_content {
+    font-size: 270%;
+    padding-top: 10%;
+    padding-left: 5%;
     width: 100%;
-    margin-top:  15px;
-    background-color: #ff6a00;
-    border: 4px solid black;
 }
-#sitemap p {
-    padding: 15px 20%;
+#sec_nav {
+    padding-top: 1%;
+    padding-left: 1%;
+    background-color: rgb(80,80,80);
+    border-bottom: 10px solid Grey;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
+
+#sec_nav input {
+    background-color: Grey;
+    border: none;
+}
+
