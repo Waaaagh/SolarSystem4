@@ -1,0 +1,24 @@
+#mass_Size { 
+    color: #E0E0E0 ;
+}
+
+#Volume {
+    position:  relative;
+    left: 80px;
+}
+
+#mass {
+    position: relative;
+    left: 100px;
+}
+
+#density {
+    position: relative;
+    left: 40px;
+}
+
+#moon {
+    color: #E0E0E0;
+    position: relative;
+    left: 180px;
+}

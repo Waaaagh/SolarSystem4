@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
             <title>Jupiter</title>
         <link rel="stylesheet" type="text/css" href="G4_Greg_Milestone_3/Style_Sheet/Planet_StyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="G4_Greg_Milestone_3/Style_Sheet/Jupiter.css">
             <!-- Links to main .css file for the planets pages. -->
     </head>
     <body>
@@ -47,10 +48,10 @@
         <div id="master_box_middle">
                 <!-- Main Box holding all the planets secondary information boxes. -->
             <div id="secondary_picture1">
-               <img src="resources/images/jupiter_interior.jpg" alt="Planetz Stuffz" height="250" width="250">
-               <p> Volume:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4313×1015^3 km3 <br>
-                   Mass  :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.8986×1027^15 kg <br>
-                   Mean Density:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.326 g/cm   
+               <img id="Interior" src="resources/images/jupiter_interior.jpg" alt="Planetz Stuffz" height="250" width="250">
+               <p id="mass_Size">Volume:<span id="Volume">4313×1015^3 km3</span> <br>
+                   Mass:<span id="mass">1.8986×1027^15 kg</span> <br>
+                   Mean Density:<span id="density">1.326 g/cm³</span>   
                </p>
             </div>
                 <!-- Box holding planets secondary characteristics. -->
@@ -95,14 +96,19 @@
         <!-- A Division that adds a thick black line between topics. -->
         <br>
             <div id="moon_info1">
-                <p> This section will hold information on the planets moons. 
+                <p> The orbits of Io, Europa, and Ganymede, some of the largest satellites in the Solar System, form a pattern known as a Laplace resonance; for every four orbits that Io makes around Jupiter, 
+                    Europa makes exactly two orbits and Ganymede makes exactly one. This resonance causes the gravitational effects of the three large moons to distort their orbits into elliptical shapes, 
+                    since each moon receives an extra tug from its neighbors at the same point in every orbit it makes. The tidal force from Jupiter, on the other hand, works to circularize their orbits.
+                    <br>
+                    <br>
+                    The eccentricity of their orbits causes regular flexing of the three moons' shapes, with Jupiter's gravity stretching them out as they approach it and allowing them to spring back to more spherical shapes as they swing away. 
+                    This tidal flexing heats the moons' interiors by friction. This is seen most dramatically in the extraordinary volcanic activity of innermost Io (which is subject to the strongest tidal forces), and to a lesser degree in the geological youth of Europa's surface (indicating recent resurfacing of the moon's exterior).  
                 </p>
             </div>
                 <!-- Box holding planets secondary pictures. --> 
             <div id="moon_picture1">
                <img src="resources/images/jupiter_moon.jpg" alt="Planetz Stuffz" height="300" width="500">
-               <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong></strong>GALILEAN MOON</strong>
+               <p id="moon"><strong>GALILEAN MOON</strong>
 
                </p>
             </div>
@@ -111,37 +117,10 @@
             <div id="topic_sub_seperator2">
             </div>
         <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="moon_info2">
-                <p> This section will hold information on the planets moons. 
-                </p>
-            </div>
-                <!-- Box holding planets secondary pictures. --> 
-            <div id="moon_picture2">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it. 
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator3">
-            </div>
+        
         <!-- A Division that adds a thick black line between topics. -->
-        <br>
-            <div id="rover_info1">
-                <p> This section will hold information on the planets rovers and satellites. 
-                </p>
-            </div>
+        
                 <!-- Box holding planets secondary pictures. --> 
-            <div id="rover_picture1">
-               <img src="yeah" alt="Planetz Stuffz">
-               <p> This is an image that will relate to, and reinforce, the text box beside it.  
-               </p>
-            </div>
-                <!-- Box holding planets secondary characteristics. -->
-		<br>
-            <div id="topic_seperator4">
-            </div>
         <!-- A Division that adds a thick black line between topics. -->
         <br>
         <div id="scroll_bar">
