@@ -1,5 +1,5 @@
 body {
-    background-image: url(resources/images/fourms_bg_placeholder_lol.jpg);
+    background-image: url(../../resources/images/fourms_bg_placeholder_lol.jpg);
     background-color: #b6ff00;
     font-family: 'Trebuchet MS', sans-serif;
     margin-left: 5%;
@@ -8,6 +8,7 @@ body {
 p {
     font-size:  120%;
 }
+/*
 #bg_img {
     position:fixed;
     top: 0px;
@@ -15,7 +16,7 @@ p {
     height: 100%;
     width: 100%;
     z-index: -1;
-}
+}*/
 #navbar {
     background-color: #808080;
     position: fixed;
