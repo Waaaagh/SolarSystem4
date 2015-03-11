@@ -55,8 +55,8 @@ p {
     width:  95%;
     height: 300px;
     float: left;
+    background-color: white;
     border: 1px solid white;
-    background-color: none;
 }
 #main_planet_image{
     float: right;
