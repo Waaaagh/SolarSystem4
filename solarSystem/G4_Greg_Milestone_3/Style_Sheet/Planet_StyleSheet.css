@@ -56,9 +56,11 @@ p {
     background-color: #FFFFFF;
 }
 #main_planet_image{
+    float: right;
     width: 400px;
     height: 400px;
     position: relative;
+    right: 13%;
 }
 #topic_seperator1 {
     margin-top: 725px;
