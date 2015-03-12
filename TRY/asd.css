@@ -75,13 +75,13 @@ p {
 }
 #main_box_content {
     font-size: 120%;
-    padding-top: 5%;
-    padding-left: 7%;
+    padding-top: 20%;
+    padding-left: 9%;
 }
 #sec_nav {
     background-color: Gray;
     position: fixed;
-    width: 100%;
+    width: 46.9%;
 }
 .nav_2_button {
     background-color: Gray;
