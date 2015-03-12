@@ -47,8 +47,11 @@ p {
     float:left;
     border:1px solid black;
     background-color:rgba(255, 255, 255, 0.85);
+<<<<<<< HEAD
+=======
+    background-color:rgba(255, 255, 255, 0.7);
+>>>>>>> 5f78482abd6d704713ff9055b9a9569bd8262c15
     box-shadow: 1px 1px 12px #888888;
-    color:  #000000;
 
 }
 #main_info1 p{
