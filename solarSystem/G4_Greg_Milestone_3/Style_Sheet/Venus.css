@@ -11,43 +11,43 @@ body {
     position:  relative;
     left: 100px;
     font-style:  italic;
-    color: #E0E0E0
+    
 }
 
 #area {
     position: relative;
-    left: 90px;
+    left: 95px;
     font-style: italic;
-    color: #E0E0E0
+   
 }
 
 
 #volume {
     position: relative;
-    left: 140px;
+    left: 135px;
     font-style:  italic;
-    color: #E0E0E0
+    
 }
 
 #mass1 {
     position: relative;
     left: 155px;
     font-style: italic;
-    color: #E0E0E0
+    
 }
 
 #density1 {
     position:  relative;
-    left:  87px;
+    left:  90px;
     font-style:  italic;
-    color: #E0E0E0
+    
 }
 
 #gravity {
     position: relative;
-    left: 65px;
+    left: 72px;
     font-style: italic;
-    color: #E0E0E0
+    
 }
 
 #neith {
@@ -55,30 +55,11 @@ body {
     left: 140px;
     bottom: 40px;
     font-style:  italic;
-    color:  #E0E0E0;
+    color:  white;
+    
 }
 
 #venus {
     font-family: Comic Sans MS;
 }
 
-#p1 {
-    color: white;
-    font-family:  Comic Sans MS;
-}
-
-#p2 {
-    color:  white;
-}
-
-#p0 {
-    color: white;
-}
-
-#p3 {
-    color:  white;
-}
-
-#p4 {
-    color:  white;
-}
