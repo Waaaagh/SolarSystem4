@@ -8,44 +8,46 @@ body {
 }
 
 #radius {
-    position: relative;
-    left: 60px;
+    position:  relative;
+    left: 100px;
     font-style:  italic;
+    color: #E0E0E0
 }
 
 #area {
     position: relative;
-    left: 54px;
+    left: 90px;
     font-style: italic;
+    color: #E0E0E0
 }
+
 
 #volume {
     position: relative;
-    left: 94px;
+    left: 140px;
     font-style:  italic;
+    color: #E0E0E0
 }
 
-#mass {
-    position:  relative;
-    left: 116px;
+#mass1 {
+    position: relative;
+    left: 155px;
+    font-style: italic;
+    color: #E0E0E0
 }
 
-#density {
+#density1 {
     position:  relative;
-    left: 54px;
+    left:  87px;
     font-style:  italic;
+    color: #E0E0E0
 }
 
 #gravity {
-    position:  relative;
-    left:  38px;
-    font-style:  italic;
-}
-
-#velocity {
-    position:  relative;
-    left:  38px;
-    font-style:  italic;
+    position: relative;
+    left: 65px;
+    font-style: italic;
+    color: #E0E0E0
 }
 
 #neith {
@@ -62,6 +64,7 @@ body {
 
 #p1 {
     color: white;
+    font-family:  Comic Sans MS;
 }
 
 #p2 {
@@ -73,5 +76,9 @@ body {
 }
 
 #p3 {
+    color:  white;
+}
+
+#p4 {
     color:  white;
 }
