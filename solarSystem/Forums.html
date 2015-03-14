@@ -8,41 +8,34 @@
         <script src="./js/Forums.js"></script>
     </head>
     <body>
-        <img id ="placeHolder" src="./resources/images/fourms_bg_placeholder_lol_1.jpg" alt="SPEEHS"></img>
-        <p id="navbar">Navbar goes here, and STAYS.</p>
-        <div id="pageSum">
-            <p id="welcomeMessage"> Welcome to the forums! We both know it but, there is only going to be two or three posts through my entire existence.</p>
+        <!-- All page elements -->
+        <div id="pageTotal">
+            <!-- Background image -->
+            <img id ="bg_img" src="./resources/images/fourms_bg_placeholder_lol_1.jpg" alt="SPEEHS">
+            <!-- Navigation Bar, note that these buttons are placeholders and WILL be replaced -->
+            <div id="navbar">
+                    <input type="button" value="HOME" style="background-color:DARKGRAY;border-radius:30px; padding:8px">
+                    <input type="button" value="PLANETS" style="background-color:DARKGRAY;border-radius:30px; padding:8px">
+                    <input type="button" value="FORUMS" style="background-color:DARKGRAY;border-radius:30px; padding:8px">
+                    <input type="button" value="ABOUT" style="background-color:DARKGRAY;border-radius:30px; padding:8px">
+                    <input type="button" value="CONTACT US" style="background-color:DARKGRAY;border-radius:30px; padding:8px">
+                </div>
+            <!-- Welcome message -->
+            <p id="welcomeMessage"> 
+                Welcome to the forums! We both know it but, there is only going to be two or three posts through my entire existence.
+            </p>
+            <!-- Box master holds all box children, and the new post button -->
             <div id="boxMaster"> 
-                <button id="newComment" onclick="alert('yeah')">New Comment</button>
-                <div class="boxChild">
-                    <p>box child 1</p>
-                </div>
-                <div class="boxChild">
-                    <p>box child 2</p>
-                </div>
-                <div class="boxChild">
-                    <p>when comment is posted, a new instance of the box child will appear, capiche?</p>
-                </div>
-                <div class="boxChild">
-                    <p>like this one... :)</p>
-                </div>
-                <div class="boxChild">
-                    <p>**for**</p>
-                    <p>**testing**</p>
-                    <p>**purposes**</p>
-                </div>
-                <div class="boxChild">
-                    <p>**for**</p>
-                    <p>**testing**</p>
-                    <p>**testing**</p>
-                    <p>**purposes**</p>
-                    <p>**purposes**</p>
-                    <p>**purposes**</p>
-                </div>
+                <!-- Click this to create a new comment -->
+                <button id="newComment" onclick="alert('Yeah, that doesn\'t work yet')">Post New Comment</button>
+                <!-- A box child holds 1 post -->
+                <p class="boxChild"> This is a box child </p>
+                <p class="boxChild"> This<br>is<br>another<br>box<br>child </p>
+                <p class="boxChild"> If<br>I<br>keep<br>going<br>the<br>page<br>will<br>have<br>to<br>have<br>a<br>scroll<br>bar<br>to<br>see<br>the<br>end<br>of<br>this<br>box </p>
+                <p class="boxChild"> Or<br>not.</p>
             </div>
-            <div id="footer">
-                    <p>Copyright © Group 4 | CONNOR GREG BYRAN FRANCIS</p>
-            </div>
+            <!-- Copyright Group 4 -->
+            <p id="footer">Copyright © Group 4 | CONNOR GREG BYRAN FRANCIS</p>
         </div>
      </body>
 </html>
