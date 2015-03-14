@@ -1,9 +1,18 @@
+/* 
+* Please do NOT make any changes to this stylesheet without informing Francis.
+*
+* If you intend to add things to this stylesheet, scroll to the very bottom until 
+* you reach the division, below which, you may add your style code or whatever.
+* 
+* TY, Francis.
+*/
+
 body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 #pageTotal {
-    background-color:rgba(255,100,100,0.7);
+    background-color:rgba(0,00,000,0000);
     position:absolute;
     top:0;
     left:0;
@@ -106,3 +115,5 @@ p {
     margin-top:2%;
     margin-bottom:10%;
 }
+
+/* CONGRATULATIONS! You have reached the division, put whatever under this. */
