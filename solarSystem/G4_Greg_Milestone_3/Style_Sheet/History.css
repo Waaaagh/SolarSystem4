@@ -38,3 +38,57 @@
     font-style: italic;
     color: #0094ff;
 }
+
+#land {
+    position: relative;
+    left: 80px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#people {
+    position: relative;
+    left: 82px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#pilot {
+    position: relative;
+    left: 130px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#artf {
+    font-style: italic;
+    color: #0094ff;
+}
+
+#artfc {
+    position: relative;
+    left: 40px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#launch {
+    position: relative;
+    left: 180px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#size {
+    position: relative;
+    left: 115px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#destruction {
+    position: relative;
+    left: 116px;
+    font-style: italic;
+    color: #0094ff;
+}
