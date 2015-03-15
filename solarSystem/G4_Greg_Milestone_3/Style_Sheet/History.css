@@ -1,0 +1,35 @@
+#flight {
+    position: relative;
+    left: 80px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#satellite {
+    position:  relative;
+    left: 80px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#man {
+    position: relative;
+    left: 135px;
+    font-style: italic;
+    color: #0094ff;
+    
+}
+
+#woman {
+    position: relative;
+    left: 110px;
+    font-style: italic;
+    color: #0094ff;
+}
+
+#moon {
+    position: relative;
+    left: 45px;
+    font-style: italic;
+    color: #0094ff;
+}

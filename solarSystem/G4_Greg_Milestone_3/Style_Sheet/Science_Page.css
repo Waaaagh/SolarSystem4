@@ -46,6 +46,7 @@ p {
     float: right;
     border: 1px ;
     border-style: solid;
+    
 }
 #imgA{
     width: 500px;
@@ -61,6 +62,7 @@ p {
     float: left;
     border: 5px;
     border-style:  solid;
+    font-family: 'Comic Sans MS'
 }
 #section_break{
     margin-top: 860px;
