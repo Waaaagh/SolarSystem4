@@ -9,15 +9,16 @@ function $(id) {
 function testUsername(id){
     var username = profileName.value;
     if(username == ""){
-        alert("Yeah.");
-    }else{
-        alert("Nope.");
+        alert("Please Enter a Username.");
     }
 }
 
 function testName(id){
-    var firstName = firstNameInput;
-    var lastName = lastNameInput;
+    var firstName = firstNameInput.value;
+    var lastName = lastNameInput.value;
+    if(firstName == "" || lastName == ""){
+        alert("Whoopie Goldberg!");
+    }
 }
 
 

@@ -25,9 +25,9 @@
 			<br>
 				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
-				<div id="first_Name_Input"><input name="first_name" id="firstNameInput" type="text" size="15" required><label id="firstName" for="firstNameInput"> First Name</label></div>
+				<div id="first_Name_Input"><input name="first_name" id="firstNameInput" type="text" size="15" onblur="testName('firstNameInput') "required><label id="firstName" for="firstNameInput"> First Name</label></div>
 				    <br>
-				<div id="last_Name_Input"><input name="last_name" id="lastNameInput" type="text" size="25" required><label id="lastName" for="lastNameInput">Last Name</label></div>
+				<div id="last_Name_Input"><input name="last_name" id="lastNameInput" type="text" size="25" onblur="testName('firstLastInput')" required><label id="lastName" for="lastNameInput">Last Name</label></div>
 				
 			<br>
 				<h4> <label for="emailInput"> What Is Your Email Address? </label><span class="asterisk" style="color:red"> *</span></h4>
