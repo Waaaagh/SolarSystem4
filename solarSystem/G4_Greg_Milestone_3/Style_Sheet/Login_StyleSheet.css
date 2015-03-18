@@ -1,19 +1,19 @@
 body {
     background-color: #c3b4b4;
 }
-#login_section{
+#login_Section{
     padding: 4em, 2em, 2em, 2em;
 }
-#area_code_input{
+#area_Code_Input{
     display: inline;
 }
-#first_three_input{
+#first_Three_Input{
     display: inline;
 }
-#last_four_input{
+#last_Four_Input{
     display: inline;
 }
-#login_section{
+#login_Section{
     border: 5px solid black;
 }
 
