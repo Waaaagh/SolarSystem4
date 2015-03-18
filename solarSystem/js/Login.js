@@ -7,13 +7,14 @@ function $(id) {
 }
 
 function testUsername(id){
-    var username = profileName;
-    if(username.equals(null)){
+    var username = profileName.value;
+    if(username == ""){
         alert("Yeah.");
     }else{
         alert("Nope.");
     }
 }
+
 
 function testName(id){
     var firstName = firstNameInput;
