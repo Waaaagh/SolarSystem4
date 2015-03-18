@@ -6,15 +6,6 @@ function $(id) {
 	return element;
 }
 
-function testUsername(id){
-    var username = profileName.value;
-    if(username == ""){
-        alert("Yeah.");
-    }else{
-        alert("Nope.");
-    }
-}
-
 
 function testName(id){
     var firstName = firstNameInput;
@@ -42,6 +33,28 @@ function testDateRangeValid(id) {
 }
 }
 
+
+__________________________________________________
+
+function testUsername(id){
+    var username = profileName.value;
+    if(username == ""){
+        alert("Please fill out the Username.");
+    }
+}
+
+function testPassword(id){
+    var password = profilePass.value;
+    if(password == ""){
+        alert("Please fill out the Password.");
+    }
+}
+
+function testGender(id){
+    
+    }
+
+}
 
 
 // Yeah, we slacked off on this part.
