@@ -49,30 +49,16 @@ function testDateRangeValid(id) {
 	if (day.value >= 1 && day.value <= 31 && month.value >= 1 && month.value <= 12 && year.value >= 2013 && year.value <= 2999){
 	return ($(id));
 	error = false;
-}
-}
-
-
-__________________________________________________
-
-function testUsername(id){
-    var username = profileName.value;
-    if(username == ""){
-        alert("Please fill out the Username.");
     }
 }
 
+
+//Password
 function testPassword(id){
     var password = profilePass.value;
     if(password == ""){
-        alert("Please fill out the Password.");
+        alert("Please enter a Password.");
     }
-}
-
-function testGender(id){
-    
-    }
-
 }
 
 

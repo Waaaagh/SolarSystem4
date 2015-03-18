@@ -1,8 +1,10 @@
 /* 
-* Please do NOT make any changes to this stylesheet without informing Francis.
+* !!!README FIRST!!!
 *
-* If you intend to add things to this stylesheet, scroll to the very bottom until 
-* you reach the division, below which, you may add your style code or whatever.
+* Please do NOT make any changes to this stylesheet before informing Francis.
+*
+* If you intend to add to this stylesheet, scroll to the very bottom until 
+* you reach the division; below which, you may add your style or whatever.
 * 
 * TY, Francis.
 */
@@ -87,8 +89,8 @@ p {
     color:LightGrey;
     text-align:center;
     font-style:oblique;
-    padding-top:1%;
-    padding-bottom:1%;
+    padding-top:3%;
+    padding-bottom:3%;
 }
 
 #boxMaster {
