@@ -6,13 +6,32 @@ function $(id) {
 	return element;
 }
 
+<<<<<<< HEAD
+=======
+function testUsername(id){
+    var username = profileName.value;
+    if(username == ""){
+        alert("Please Enter a Username.");
+    }
+}
+>>>>>>> f32764a135ff25fb89e204d145eb810afd6c6b7f
 
 function testName(id){
-    var firstName = firstNameInput;
-    var lastName = lastNameInput;
+    var firstName = firstNameInput.value;
+    var lastName = lastNameInput.value;
+    if(firstName == "" || lastName == ""){
+        alert("Whoopie Goldberg!");
+    }
 }
 
-
+function testEmail(id){
+    var email = (emailInput.value.substring(emailInput.value.length - 2));
+    if(email == "ca" || email == "om" || email == "rg" || email == "uk"){
+        alert("Yeah. " + email);
+    }else{
+        alert("Nope. " + email)
+    }
+}
 
 
 
