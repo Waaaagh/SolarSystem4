@@ -6,10 +6,36 @@ function $(id) {
 	return element;
 }
 
+function testUsername(id){
+    var username = profileName.value;
+    if(username == ""){
+        alert("Please Enter a Username.");
+    }
+}
+
+function testName(id){
+    var firstName = firstNameInput.value;
+    var lastName = lastNameInput.value;
+    if(firstName == "" || lastName == ""){
+        alert("Whoopie Goldberg!");
+    }
+}
+
+function testEmail(id){
+    var email = (emailInput.value.substring(emailInput.value.length - 2));
+    if(email == "ca" || email == "om" || email == "rg" || email == "uk"){
+        alert("Yeah. " + email);
+    }else{
+        alert("Nope. " + email)
+    }
+}
+
+
+
+
 function testPassValid(id) {
 	if (radPassedWeb_0.checked == true){
 	return ($(id));
-	error = false;
 }
 }
 
