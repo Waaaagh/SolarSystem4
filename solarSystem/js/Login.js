@@ -6,10 +6,23 @@ function $(id) {
 	return element;
 }
 
+function testUsername(id){
+    var username = profileName;
+    if(username.equals(null)){
+        alert("Yeah.");
+    }else{
+        alert("Nope.");
+    }
+}
+
+function testName(id){
+    var firstName = firstNameInput;
+    var lastName = lastNameInput;
+}
+
 function testPassValid(id) {
 	if (radPassedWeb_0.checked == true){
 	return ($(id));
-	error = false;
 }
 }
 
