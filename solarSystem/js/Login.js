@@ -21,7 +21,14 @@ function testName(id){
     }
 }
 
-
+function testEmail(id){
+    var email = (emailInput.value.substring(emailInput.value.length - 2));
+    if(email == "ca" || email == "om" || email == "rg" || email == "uk"){
+        alert("Yeah. " + email);
+    }else{
+        alert("Nope. " + email)
+    }
+}
 
 
 
