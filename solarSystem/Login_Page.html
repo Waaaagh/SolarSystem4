@@ -9,13 +9,13 @@
     </head>
     <body>
         <div id="login_Section">
-                <form id="login_Form" action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" target="_blank">
+                <form id="login_Form" action="Login.php" method="post" target="_blank">
                     <h4> Username: <span class="asterisk" style="color:red"> *</span></h4>
                     <input type="text" name="username" size="50" id="profileName" onblur="testUsername('profileName')"required>
 
 			<br>
                     <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
-                    <input type="text" name="password" size="50" id="profilePass" required>
+                    <input type="password" name="password" size="50" id="profilePass" required>
             <br>
 
 				<h4> What Is Your Gender? <span class="asterisk" style="color:red"> *</span></h4>
@@ -35,18 +35,26 @@
 			<br>
 			<br>
 				<h4> Do You Have A Phone Number?</h4>
+<<<<<<< HEAD
+				<div id="area_Code_Input"><input id="areaCodeInput" name="phone_first"type="number" size="3" maxlength="3" > -<label id="areaCode" for="areaCodeInput">(xxx)</label></div>
+				
+				<div id="first_Three_Input"><input id="firstThreeInput" name="phone_middle" type="number" size="3" maxlength="3" > -<label id="firstThree" for="firsTthreeInput">xxx</label></div>
+				
+				<div id="last_Four_Input"><input id="lastFourInput" name="phone_last" type="number" size="5" maxlength="4" ><label id="lastFour" for="lastFourInput">xxxx</label></div>
+=======
 				<div id="area_Code_Input"><input id="areaCodeInput" name="phone_first"type="text" size="3" maxlength="3" > -(xxx)</div>
 				
 				<div id="first_Three_Input"><input id="firstThreeInput" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
 				
 				<div id="last_Four_Input"><input id="lastFourInput" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+>>>>>>> 2a6b636f335bc6728d1baa12c265b9ab46db9893
 				<br>
 				<h5><label for="textareafield"> Profile Biography:</label></h5>
 				<textarea id="textAreaField" name="bio" rows="4" cols="55" form="entire_form">Type In Anything And Everything (That Is Appropriate) Here!
 				</textarea>
 				<br>
 				<br>
-			<input id="submitButton" type="submit" value="Submit Thy Info!">
+			<input id="submitButton" name="Submit" type="submit" value="Submit Thy Info!">
                 
                 </form>
         
