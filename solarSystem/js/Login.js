@@ -60,6 +60,17 @@ function testPassword(id){
         alert("Please enter a Password.");
     }
 }
-    
+
+//PhoneNumber
+function testPhone(id){
+    var area = areaCodeInput.value;
+    var digits1 = firstThreeInput.value;
+    var digits2 = lastFourInput.value;
+
+    if (area=="" || digits1=="" || digits2==""){
+        alert("Please fill out all the blanks");
+
+    }
+}   
 
 // Yeah, we slacked off on this part.
