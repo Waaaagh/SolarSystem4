@@ -15,6 +15,7 @@
 
 			<br>
                     <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
+<<<<<<< HEAD
                     <input type="text" name="password" size="50" id="profilePass" onblur="testPassword('profilePass')"required>
             <br>
 
@@ -28,6 +29,15 @@
 				<br>
 				<input type="radio" name="gender" value="female" required>Female.
 >>>>>>> 4e55c65ab6c5969a173cbf949ce002b0f9d735c9
+=======
+                    <input type="password" name="password" size="50" id="profilePass" required>
+            <br>
+
+				<h4> What Is Your Gender? <span class="asterisk" style="color:red"> *</span></h4>
+				<input type="radio" id="genderMale" name="gender" value="male" onclick="testGender('genderMale')" required>Male.
+				<br>
+				<input type="radio" id="genderFemale" name="gender" value="female" onclick="testGender('genderFemale')" required>Female.
+>>>>>>> eb2ec465f45e188df6d173652b09322d31c718ad
 			<br>
 				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
@@ -41,25 +51,13 @@
 			<br>
 			<br>
 				<h4> Do You Have A Phone Number?</h4>
-<<<<<<< HEAD
-				<div id="area_Code_Input"><input id="areaCodeInput" name="phone_first"type="number" size="3" maxlength="3" > -<label id="areaCode" for="areaCodeInput">(xxx)</label></div>
-				
-				<div id="first_Three_Input"><input id="firstThreeInput" name="phone_middle" type="number" size="3" maxlength="3" > -<label id="firstThree" for="firsTthreeInput">xxx</label></div>
-				
-				<div id="last_Four_Input"><input id="lastFourInput" name="phone_last" type="number" size="5" maxlength="4" ><label id="lastFour" for="lastFourInput">xxxx</label></div>
-=======
+
 				<div id="area_Code_Input"><input id="areaCodeInput" name="phone_first"type="text" size="3" maxlength="3" > -(xxx)</div>
 				
 				<div id="first_Three_Input"><input id="firstThreeInput" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
 				
 				<div id="last_Four_Input"><input id="lastFourInput" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
->>>>>>> 2a6b636f335bc6728d1baa12c265b9ab46db9893
-				<br>
-				<h5><label for="textareafield"> Profile Biography:</label></h5>
-				<textarea id="textAreaField" name="bio" rows="4" cols="55" form="entire_form">Type In Anything And Everything (That Is Appropriate) Here!
-				</textarea>
-				<br>
-				<br>
+                <br>
 			<input id="submitButton" name="Submit" type="submit" value="Submit Thy Info!">
                 
                 </form>
