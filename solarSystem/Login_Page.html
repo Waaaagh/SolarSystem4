@@ -15,13 +15,15 @@
 
 			<br>
                     <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
-                    <input type="password" name="password" size="50" id="profilePass" required>
+
+                    <input type="text" name="password" size="50" id="profilePass" onblur="testPassword('profilePass')"required>
             <br>
 
 				<h4> What Is Your Gender? <span class="asterisk" style="color:red"> *</span></h4>
 				<input type="radio" id="genderMale" name="gender" value="male" onclick="testGender('genderMale')" required>Male.
 				<br>
 				<input type="radio" id="genderFemale" name="gender" value="female" onclick="testGender('genderFemale')" required>Female.
+
 			<br>
 				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
@@ -41,6 +43,7 @@
 				<div id="first_Three_Input"><input id="firstThreeInput" onblur="testNumber('middleThree')" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
 				
 				<div id="last_Four_Input"><input id="lastFourInput" onblur="testNumber('lastFour')" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+                <br>
                 <br>
                 <br>
 			<input id="submitButton" name="Submit" type="submit" value="Submit Thy Info!">

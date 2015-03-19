@@ -13,16 +13,6 @@ function testUsername(id){
     }
 }
 
-function testGender(id){
-    var male = genderMale.value;
-    var female = genderFemale.value;
-    if((male == false) && (female == false)){
-        alert("Salt Levels At Maximum!");
-    }else{
-        alert("Salt Levels At Normal Heights.");
-    }
-}
-
 function testName(id){
     var firstName = firstNameInput.value;
     var lastName = lastNameInput.value;
@@ -53,5 +43,21 @@ function testNumber(id){
 
 
 
+
+function testPassValid(id) {
+	if (radPassedWeb_0.checked == true){
+	return ($(id));
+}
+}
+
+function testDateRangeValid(id) {
+	var day = txtStartDate_0;
+	var month = txtStartDate_1;
+	var year = txtStartDate_2;
+	if (day.value >= 1 && day.value <= 31 && month.value >= 1 && month.value <= 12 && year.value >= 2013 && year.value <= 2999){
+	return ($(id));
+	error = false;
+    }
+}
 
 // Yeah, we slacked off on this part.
