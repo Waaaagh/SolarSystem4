@@ -13,6 +13,16 @@ function testUsername(id){
     }
 }
 
+function testGender(id){
+    var male = genderMale.value;
+    var female = genderFemale.value;
+    if((male == false) && (female == false)){
+        alert("Salt Levels At Maximum!");
+    }else{
+        alert("Salt Levels At Normal Heights.");
+    }
+}
+
 function testName(id){
     var firstName = firstNameInput.value;
     var lastName = lastNameInput.value;
@@ -30,6 +40,11 @@ function testEmail(id){
     }
 }
 
+function testNumber(id){
+    var firstThree = 1;
+    var middleThree = 1;
+    var lastFour = 1;
+}
 
 
 
