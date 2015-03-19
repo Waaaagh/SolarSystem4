@@ -36,11 +36,12 @@
 			<br>
 				<h4> Do You Have A Phone Number?</h4>
 
-				<div id="area_Code_Input"><input id="areaCodeInput" name="phone_first"type="text" size="3" maxlength="3" > -(xxx)</div>
+				<div id="area_Code_Input"><input id="areaCodeInput" onblur="testNumber('firstThree')" name="phone_first" type="text" size="3" maxlength="3" > -(xxx)</div>
 				
-				<div id="first_Three_Input"><input id="firstThreeInput" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
+				<div id="first_Three_Input"><input id="firstThreeInput" onblur="testNumber('middleThree')" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
 				
-				<div id="last_Four_Input"><input id="lastFourInput" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+				<div id="last_Four_Input"><input id="lastFourInput" onblur="testNumber('lastFour')" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+                <br>
                 <br>
 			<input id="submitButton" name="Submit" type="submit" value="Submit Thy Info!">
                 
