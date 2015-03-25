@@ -26,7 +26,7 @@ function testEmail(id){
     if(email == "ca" || email == "om" || email == "rg" || email == "uk"){
         alert("Yeah. " + email);
     }else{
-        alert("Nope. " + email)
+        alert("Nope. " + email);
     }
 }
 
