@@ -30,14 +30,15 @@ function testEmail(id){
     }
 }
 
-function testNumber(id){
-    var firstThree = areaCodeInput.value;
-    var middleThree = firstThreeInput.value;
-    var lastFour = lastFourInput.value;
-    if((1000 < firstThree > 99) && (1000 < middleThree >= 0) && (10000 < lastFour >= 0)){
-        alert("Yep.");
-    }else{
-        alert("No.");
-    }
+function testNumber(id) {
+	var firstThree = areaCodeInput;
+	var middleThree = firstThreeInput;
+	var lastFour = lastFourInput;
+	if (firstThree.value >= 100 && firstThree.value <= 999 && middleThree.value >= 100 && middleThree.value <= 999 && lastFour.value >= 1000 && lastFour.value <= 9999) {
+	    alert("Yeah!");
+	    return true;
+	}else{
+	    alert("No!");
+        return true;
+	}
 }
-//FFFFFFF
