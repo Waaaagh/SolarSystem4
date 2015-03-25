@@ -7,13 +7,7 @@
     $realLast = $_POST['last_name'];
     $email = $_POST['email'];
 
-    echo "Username: $user <br />";
-    echo "Password: $password <br />";
-    echo "Gender: $sex <br />";
-    echo "Real First Name: $realFirst <br />";
-    echo "Real Last Name: $realLast <br />";
-    echo "Email: $email <br />";
-
+    echo 'hello'.$user;
 ?>
 
 <!DOCTYPE html>
