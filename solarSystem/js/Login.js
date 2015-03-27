@@ -93,15 +93,15 @@ function testNumber(id) {
         document.getElementById("phone_Section").className = "true";
         truePhone =  true;
 	    number = firstThree + middleThree + lastFour;
-	    return number;
+	    return ($(id));
 	}else{
         truePhone = false;
-        document.getElementById("phone_Section").className = "false";
+        document.getElementById("phone_Section").className = "true";
 	}
 }
 
 function formvalidate(id){
-    if(trueFirstName == false || trueLastName == false || trueUsername == false || trueEmail == false || truePhone == false || trueSex == false || truePass == false){
+    if(trueFirstName == false || trueLastName == false || trueUsername == false || trueEmail == false || trueSex == false || truePass == false){
         alert("Please properly fill out the required forms.");
         return false;
     }else{
