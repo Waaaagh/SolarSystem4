@@ -17,4 +17,12 @@ body {
     
 }
 
+.true{
+    background-color: none;
+    width: 40%;
+}
 
+.false{
+    background-color: #f00;
+    width: 40%;
+}
