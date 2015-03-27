@@ -34,9 +34,21 @@ function testNumber(id){
     var firstThree = areaCodeInput.value;
     var middleThree = firstThreeInput.value;
     var lastFour = lastFourInput.value;
-    if((1000 < firstThree > 99) && (1000 < middleThree >= 0) && (10000 < lastFour >= 0)){
+    if(1000 < firstThree > 99){
         alert("Yep.");
     }else{
         alert("No.");
+    }
+
+    if (1000 < middleThree >=0){
+        alert("Yep.");
+    }else{
+        alert ("No.");
+    }
+
+    if (1000 < lastFour >=0){
+        alert("Yep.");
+    }else{
+        alert ("No.");
     }
 }
