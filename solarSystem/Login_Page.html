@@ -12,12 +12,12 @@
                 <form id="login_Form" action="https://www.google.ca/news" method="post" target="_blank" onsubmit="return formvalidate()">
                     <div id="user_Section" class="true">
                         <h4> Username: <span class="asterisk" style="color:red"> *</span></h4>
-                        <input type="text" name="username" size="50" id="profileName" onblur="testUsername('profileName')"required>
+                        <input type="text" name="username" size="50" id="profileName" maxlength="15" onblur="testUsername('profileName')"required>
                     </div>
 
                     <div id="pass_Section" class="true">
                         <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
-                            <input type="text" name="password" size="50" id="profilePass" onblur="testPassword('profilePass')"required>
+                            <input type="text" name="password" size="50" id="profilePass" maxlength="10" onblur="testPassword('profilePass')"required>
                     </div>
             <br>
                     <div id="gender_Section" class="true">
@@ -29,9 +29,9 @@
 			<br>
 				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
-				<div id="first_Name_Input" class="true"><input name="first_name" id="firstNameInput" type="text" size="15" onblur="testFirstName('firstNameInput') "required>First Name</div>
+				<div id="first_Name_Input" class="true"><input name="first_name" id="firstNameInput" type="text" size="15" maxlength="15" onblur="testFirstName('firstNameInput') "required>First Name</div>
 				    <br>
-				<div id="last_Name_Input" class="true"><input name="last_name" id="lastNameInput" type="text" size="25" onblur="testLastName('firstLastInput')" required>Last Name</div>
+				<div id="last_Name_Input" class="true"><input name="last_name" id="lastNameInput" type="text" size="15" maxlength="15" onblur="testLastName('firstLastInput')" required>Last Name</div>
 				
 			<br>
                     <div id="email_Section" class="true">
