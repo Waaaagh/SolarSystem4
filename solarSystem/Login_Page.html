@@ -9,40 +9,46 @@
     </head>
     <body>
         <div id="login_Section">
-                <form id="login_Form" action="Login.php" method="post" target="_blank">
-                    <h4> Username: <span class="asterisk" style="color:red"> *</span></h4>
-                    <input type="text" name="username" size="50" id="profileName" onblur="testUsername('profileName')"required>
+                <form id="login_Form" action="https://www.google.ca/news" method="post" target="_blank" onsubmit="return formvalidate()">
+                    <div id="user_Section" class="true">
+                        <h4> Username: <span class="asterisk" style="color:red"> *</span></h4>
+                        <input type="text" name="username" size="50" id="profileName" maxlength="15" onblur="testUsername('profileName')"required>
+                    </div>
 
-			<br>
-                    <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
-
-                    <input type="text" name="password" size="50" id="profilePass" onblur="testPassword('profilePass')"required>
+                    <div id="pass_Section" class="true">
+                        <h4> Password: <span class="asterisk" style="color:red"> *</span></h4>
+                            <input type="text" name="password" size="50" id="profilePass" maxlength="10" onblur="testPassword('profilePass')"required>
+                    </div>
             <br>
-
+                    <div id="gender_Section" class="true">
 				<h4> What Is Your Gender? <span class="asterisk" style="color:red"> *</span></h4>
 				<input type="radio" id="genderMale" name="gender" value="male" onclick="testGender('genderMale')" required>Male.
 				<br>
 				<input type="radio" id="genderFemale" name="gender" value="female" onclick="testGender('genderFemale')" required>Female.
-
+                        </div>
 			<br>
 				<h4> What Is Your Real Name? <span class="asterisk" style="color:red"> *</span></h4>
 				 
-				<div id="first_Name_Input"><input name="first_name" id="firstNameInput" type="text" size="15" onblur="testName('firstNameInput') "required>First Name</div>
+				<div id="first_Name_Input" class="true"><input name="first_name" id="firstNameInput" type="text" size="15" maxlength="15" onblur="testFirstName('firstNameInput') "required>First Name</div>
 				    <br>
-				<div id="last_Name_Input"><input name="last_name" id="lastNameInput" type="text" size="25" onblur="testName('firstLastInput')" required>Last Name</div>
+				<div id="last_Name_Input" class="true"><input name="last_name" id="lastNameInput" type="text" size="15" maxlength="15" onblur="testLastName('firstLastInput')" required>Last Name</div>
 				
 			<br>
+                    <div id="email_Section" class="true">
 				<h4> What Is Your Email Address? <span class="asterisk" style="color:red"> *</span></h4>
 				<input id="emailInput" type="text" name="email" size="70" onblur="testEmail('emailInput')" required>
+                    </div>
 			<br>
 			<br>
+                <div id="phone_Section" class="true">
 				<h4> Do You Have A Phone Number?</h4>
 
-				<div id="area_Code_Input"><input id="areaCodeInput" onblur="testNumber('firstThree')" name="phone_first" type="text" size="3" maxlength="3" > -(xxx)</div>
+				<div id="area_Code_Input" ><input id="areaCodeInput" onblur="testNumber('firstThree')" name="phone_first" type="text" size="3" maxlength="3" > -(xxx)</div>
 				
-				<div id="first_Three_Input"><input id="firstThreeInput" onblur="testNumber('middleThree')" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
+				<div id="first_Three_Input" ><input id="firstThreeInput" onblur="testNumber('middleThree')" name="phone_middle" type="text" size="3" maxlength="3" > -xxx</div>
 				
-				<div id="last_Four_Input"><input id="lastFourInput" onblur="testNumber('lastFour')" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+				<div id="last_Four_Input" ><input id="lastFourInput" onblur="testNumber('lastFour')" name="phone_last" type="text" size="5" maxlength="4" >xxxx</div>
+                </div>
                 <br>
                 <br>
                 <br>
