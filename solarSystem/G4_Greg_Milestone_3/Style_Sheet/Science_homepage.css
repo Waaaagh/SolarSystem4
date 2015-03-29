@@ -1,0 +1,185 @@
+body {
+    background-color: #00ff21;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 1500px;
+    height: 1100px;
+    padding-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url("../../tilev2.jpg");
+}
+#title{
+    top: 0;
+    left: 810px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: #FFFFFF;
+        
+}
+#navbar {
+    background-color: #808080;
+    position:  fixed;
+    top:  0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    text-align: left;
+    display: inline;
+    margin: auto;
+    padding: 15px 4px 17px 0px;
+    background-color: #313131;
+    box-shadow: 10px 10px 12px 1px #000000;
+}
+ul li {
+    display: inline-block;
+    margin-right: 4px;
+    text-transform: uppercase;
+    padding: 15px 20px
+    
+    
+}
+ul li:hover{
+    background-color: #272727;
+    color: #FFFFFF;
+}
+ul li ul{
+    padding: 0;
+    position: absolute;
+    width: 100px;
+    left: 190px;
+    box-shadow: 10px 10px 12px 1px #000000;
+    <!--display: none;
+    visibility: hidden;  -->
+}
+ul li ul li{
+      background-color: #313131; 
+  display: block; 
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 #000; 
+}
+
+ul li:hover ul {
+  display: block;
+ background-color: #272727;
+  visibility: visible;
+}
+li, a{
+    color: #FFFFFF
+}
+a: link, a:visited {
+    display: block;
+    text-decoration: none;
+}
+a{
+    text-decoration: none
+}
+#master_box {
+    padding-top: 5%;
+}
+p {
+    font-size:  120%;
+}
+h1 {
+    text-align: center; 
+}
+img{
+  
+}
+#bar1,
+#bar2,
+#bar3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+#bar1{
+    padding-top: 10px;
+    margin-top: 50px;
+    border: solid 5px;
+    position:absolute;
+    text-align: center;
+   min-width: 220px;
+    max-width: 220px;
+    min-height: 800px;
+    max-height: 800px;
+}
+
+#bar2{
+    padding-top: 10px;
+    margin-top: 50px;
+    border: solid 5px;
+    position: absolute;
+    text-align: center;
+   min-width: 220px;
+    max-width: 220px;
+        min-height: 800px;
+    max-height: 800px;
+    
+    
+}
+
+#bar3{
+    padding-top: 10px;
+    margin-top: 50px;
+    border: solid 5px;
+    height: 100%;
+    position: inherit;
+    text-align: center;
+    bottom: 0;
+    min-width: 220px;
+    max-width: 220px;
+        min-height: 800px;
+    max-height: 800px;
+}
+#column_section {
+    position: relative;
+    background-image: url("img/tile.jpg");
+
+}
+#mask{
+    position:relative;	
+	clear:both;
+	float:left;
+	width:100%;			
+	overflow:hidden;		
+}
+#column_section, #middle, #left{
+    float:left;
+	width:100%;			
+	position:relative;
+    
+}
+#column_section, #middle{
+ <!--right: 25%; -->
+
+}
+#column_section, #left{
+ <!--right; 50%;-->
+
+}
+#column_section #bar1{
+	width:25%;			
+	right: 80%;
+    background-color: #C7C7C7;
+    box-shadow: 10px 10px 12px 1px #000000;
+}
+#column_section #bar2{
+	width:4%;			
+	left:80%;
+        background-color: #C7C7C7;
+    box-shadow:-10px 20px 10px 1px #000000;
+}
+#column_section #bar3{
+	width:15%;			
+	left:42.5%;
+    align-content: center;
+    background-color: #C7C7C7;
+    box-shadow:0px 25px 10px 15px  #000000;
+}
