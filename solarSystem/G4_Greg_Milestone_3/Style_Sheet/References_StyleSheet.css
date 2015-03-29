@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../../resources/images/planets_background_2.png);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-color:  black;
+}
+p {
+    font-size:  100%;
+    padding-left: 5px;
+    
+}
+/*
+#bg_img {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}*/
+#navbar {
+    background-color: #808080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border: 4px solid black;
+}
+}
+#master_box_top {
+    padding-top: 88px;
+}
+#master_box_middle{
+    padding-top: 20px;
+    width: 100%;
+    height: 350px;
+}
