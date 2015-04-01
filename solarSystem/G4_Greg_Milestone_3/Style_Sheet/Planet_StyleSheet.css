@@ -85,10 +85,10 @@ ul li:hover ul {
 li, a{
     color: #FFFFFF
 }
-a:link, a:visited {
+/*a:link, a:visited {
     display: block;
     text-decoration: none;
-}
+}*/
 a{
     text-decoration: none
 }
